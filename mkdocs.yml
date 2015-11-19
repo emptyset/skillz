@@ -1,6 +1,6 @@
 site_name: skillz
 site_author: Alan Fay
-repo_url: https://github.com/
+repo_url: https://github.com/emptyset/skillz
 
 pages:
 - Overview: index.md
