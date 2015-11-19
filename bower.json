@@ -1,0 +1,11 @@
+{ 
+	"name": "skillz",
+	"dependencies": {
+		"angular": "latest",
+		"angular-resource": "latest",
+		"angular-route": "latest",
+		"angular-ui-router": "latest",
+		"c3": "latest",
+		"d3": "latest"
+	}
+}

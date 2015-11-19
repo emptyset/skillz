@@ -1,0 +1,14 @@
+site_name: skillz
+site_author: Alan Fay
+repo_url: https://github.com/
+
+pages:
+- Overview: index.md
+- Roadmap: roadmap.md
+- TODO: todo.md
+- References: references.md
+- License: license.md
+theme_dir: 'themes/cyborg'
+
+site_dir: public/docs/
+dev_addr: 0.0.0.0:8000
