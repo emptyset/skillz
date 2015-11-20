@@ -2,10 +2,10 @@
 
 # setup npm/bower environment goodness
 # NOTE: http://stackoverflow.com/a/18277225
+mkdir ~/.npm-global
 echo 'prefix = ~/.npm-global' >> ~/.npmrc
 echo 'export PATH="$PATH:$HOME/.npm-global/bin"' >> ~/.bashrc
 source ~/.bashrc
-
 
 # setup project dependencies
 cd /vagrant

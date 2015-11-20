@@ -20,7 +20,7 @@ echo "mongodb-org-shell hold" | sudo dpkg --set-selections
 echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
 echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 
-# anstall: nodejs and npm
+# install: nodejs and npm
 sudo add-apt-repository ppa:chris-lea/node.js
 apt-get update
 apt-get -y install nodejs
