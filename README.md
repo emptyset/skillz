@@ -20,6 +20,30 @@ and the use of [c3](http://c3js.org/examples.html).
 
 Then open a browser to: [192.168.33.10:3000](http://192.168.33.10:3000)
 
+# Not-So-Quick Start
+
+Vagrant is a little finicky on this project, so here's some OSX instructions
+to get started without Vagrant.
+
+This assumes that `mongo`/`node`/`npm`/`bower` binaries are installed.  I use
+homebrew to install these packages locally.
+
+In a separate terminal, run:
+
+    $ mongod
+
+In another terminal:
+
+    $ npm update
+	$ npm install
+	$ bower install
+	$ cd data
+	$ ./import.sh
+	$ cd ..
+	$ npm start
+
+Then open a browser to: [localhost:3000](http://localhost:3000)
+
 # Documentation
 
 The application is documented with [mkdocs](http://www.mkdocs.org/).  To view
